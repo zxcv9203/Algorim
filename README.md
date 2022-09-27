@@ -12,10 +12,15 @@
 - Go 1.19
 
 ## 실행 방법
-<aside>
-Go 1.19 버전이 설치되어야 합니다.
-</aside>
+
+⚠️ Go가 설치되어야 합니다. (1.19 버전 권장)
+
 
 ``` shell
-make run <option>
+make start <option>
+```
+
+다음 명령을 사용하면 지원하는 기능을 확인할 수 있습니다.
+```shell
+make help
 ```
